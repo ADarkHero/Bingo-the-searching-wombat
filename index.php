@@ -6,8 +6,8 @@
 	//Cycles throught all files
 	foreach($fileList as $filename){
 		//Only read 10 files
-		if($i < 10){
-			$url = "ssl.bing.com/webmaster/api.svc/pox/SubmitUrlBatch?apikey=" . "YOUR API KEY";
+		if($i < 20){
+			$url = "ssl.bing.com/webmaster/api.svc/pox/SubmitUrlBatch?apikey=" . "I'M A VERY CUTE API KEY";
 			$input_xml = '
 		<SubmitUrlBatch xmlns="http://schemas.datacontract.org/2004/07/Microsoft.Bing.Webmaster.Api">
 			<siteUrl>https://www.loechel-industriebedarf.de</siteUrl>
@@ -52,7 +52,7 @@
 			break;
 		}
 		
-		 $i++
+		 $i++;
 	}
 
 	
